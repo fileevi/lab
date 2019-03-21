@@ -1,0 +1,19 @@
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+
+#ex1
+def sigmoid(x):
+    y=1/(1+np.exp(-x))
+    return y
+
+
+x= np.arange(-3,3,0.01)
+print(x)
+print(sigmoid(x))
+
+y=sigmoid(x)
+plt.plot(x,y)
+#plt.xlabel('X values')
+#plt.ylabel('Y values')
+plt.show()
