@@ -19,7 +19,10 @@ A.add(9)
 A.discard(3.14)
 for i in A:
     print(i,i in B)
-   
+
+
+EX1 Rulett
+
 import random
 
 wheel = set(range(0,37))
@@ -92,3 +95,13 @@ while True:
         print('You have to choose from the possible properties!')
     except IndexError:
         print('You have to take lesser or equal bet than you money!')   
+
+EX2 
+
+
+
+
+
+
+
+
